@@ -1,7 +1,7 @@
 import telebot
 import sqlite3
 from telebot import types
-bot = telebot.TeleBot('5196018446:AAF88bQCX7Fxg2UsH3D1MhwXs-sXsEGhQ1s')
+bot = telebot.TeleBot('')
 conn = sqlite3.connect("db.db", check_same_thread = False)
 kb = types.ReplyKeyboardMarkup(True,False)
 kb.add("Где мой номер?", "О гостинице")
